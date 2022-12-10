@@ -26,3 +26,4 @@ plt.plot(bins_count[1:], cdf, color="red",label="CDF")
 plt.legend()
 plt.ylim(0,1)
 plt.show()
+

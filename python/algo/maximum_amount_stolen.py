@@ -20,8 +20,8 @@ def max_loot(houses,n):
 
 #using recursion:
 
-def max_loot(houses,n):
-    pass
+# def max_loot(houses,n):
+#     pass
 print(max_loot([6,7,1,3,8,2,4],7))
 print(max_loot([1,2,8,3,8,2,4],7))
 print(max_loot([2,4,1,3,8,2,4],7))

@@ -13,13 +13,11 @@ def min_jumps(l):
             if l[index]>=length-1:
                 return 1
             else:
-                op.append(l[index])
-                
+                op.append(l[index])         
                 t=max(l[index],l[index]+index)
                 if (t>=length):
                     break
-                
-            
+
             index+=1
 
 
